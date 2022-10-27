@@ -70,7 +70,7 @@ class MyWindow(QtWidgets.QWidget):
         dir_choose = QtWidgets.QFileDialog.getExistingDirectory(self,'选择文件夹',r"D:")
         self.lineedit1.setText(dir_choose)
     def open_datapath(self):
-        dir_choose = QtWidgets.QFileDialog.getExistingDirectory(self,'选择文件夹',r"D:\WeChat Files\wxid_5yshux7ls6kq22\FileStorage\MsgAttach")
+        dir_choose = QtWidgets.QFileDialog.getExistingDirectory(self,'选择文件夹',r"D:\WeChat Files\xxx\FileStorage\MsgAttach")
         self.lineedit.setText(dir_choose)
     def infomsg(self):
         QtWidgets.QMessageBox.information(self, '提示','转换成功!',QtWidgets.QMessageBox.Yes | QtWidgets.QMessageBox.Yes)
